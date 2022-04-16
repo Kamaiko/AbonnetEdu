@@ -1,8 +1,5 @@
 ﻿Public Class Form1
 
-
-
-
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
         Dim FormNouveauContrat As New Form2
         FormNouveauContrat.Show()
@@ -43,11 +40,13 @@
     End Sub
 
     Private Sub DébitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DébitToolStripMenuItem.Click
-
+        Dim FormTransactions As New Form4
+        FormTransactions.Show()
     End Sub
 
     Private Sub NouvelEmployéToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NouvelEmployéToolStripMenuItem.Click
-
+        Dim FormNouvelEmploye As New Form5
+        FormNouvelEmploye.Show()
     End Sub
 
     Private Sub ÀProposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÀProposToolStripMenuItem.Click
@@ -59,5 +58,23 @@
         MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
     End Sub
 
+    Private Sub btnNouveauContrat_Click(sender As Object, e As EventArgs) Handles btnNouveauContrat.Click
+        Dim FormNouveauContrat As New Form2
+        FormNouveauContrat.Show()
+    End Sub
 
+    Private Sub btnCreerClient_Click(sender As Object, e As EventArgs) Handles btnCreerClient.Click
+        Dim FormCreerClient As New Form3
+        FormCreerClient.Show()
+    End Sub
+
+    Private Sub btnNouvelEmploye_Click(sender As Object, e As EventArgs) Handles btnNouvelEmploye.Click
+        Dim FormNouvelEmploye As New Form5
+        FormNouvelEmploye.Show()
+    End Sub
+
+    Private Sub btnRapportDeTransactions_Click(sender As Object, e As EventArgs) Handles btnRapportDeTransactions.Click
+        Dim FormTransactions As New Form4
+        FormTransactions.Show()
+    End Sub
 End Class

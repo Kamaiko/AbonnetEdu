@@ -22,9 +22,9 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Me.gbClientInformation = New System.Windows.Forms.GroupBox()
         Me.txtCodePostal = New System.Windows.Forms.TextBox()
         Me.txtVille = New System.Windows.Forms.TextBox()
         Me.txtAdresse = New System.Windows.Forms.TextBox()
@@ -56,55 +56,55 @@ Partial Class Form3
         Me.btnSauvegarder = New System.Windows.Forms.Button()
         Me.btnNouveau = New System.Windows.Forms.Button()
         Me.btnQuitter = New System.Windows.Forms.Button()
-        Me.GroupBox1.SuspendLayout()
+        Me.gbClientInformation.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'GroupBox1
+        'gbClientInformation
         '
-        Me.GroupBox1.Controls.Add(Me.txtCodePostal)
-        Me.GroupBox1.Controls.Add(Me.txtVille)
-        Me.GroupBox1.Controls.Add(Me.txtAdresse)
-        Me.GroupBox1.Controls.Add(Me.txtTelephone)
-        Me.GroupBox1.Controls.Add(Me.txtCourriel)
-        Me.GroupBox1.Controls.Add(Me.txtNom)
-        Me.GroupBox1.Controls.Add(Me.txtPrenom)
-        Me.GroupBox1.Controls.Add(Me.txtClientID)
-        Me.GroupBox1.Controls.Add(Me.lblCodePostal)
-        Me.GroupBox1.Controls.Add(Me.lblVille)
-        Me.GroupBox1.Controls.Add(Me.lblAdresse)
-        Me.GroupBox1.Controls.Add(Me.lblCourriel)
-        Me.GroupBox1.Controls.Add(Me.lblTelephone)
-        Me.GroupBox1.Controls.Add(Me.lblNom)
-        Me.GroupBox1.Controls.Add(Me.lblPrenom)
-        Me.GroupBox1.Controls.Add(Me.lblClientID)
-        Me.GroupBox1.Location = New System.Drawing.Point(79, 42)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(529, 177)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.gbClientInformation.Controls.Add(Me.txtCodePostal)
+        Me.gbClientInformation.Controls.Add(Me.txtVille)
+        Me.gbClientInformation.Controls.Add(Me.txtAdresse)
+        Me.gbClientInformation.Controls.Add(Me.txtTelephone)
+        Me.gbClientInformation.Controls.Add(Me.txtCourriel)
+        Me.gbClientInformation.Controls.Add(Me.txtNom)
+        Me.gbClientInformation.Controls.Add(Me.txtPrenom)
+        Me.gbClientInformation.Controls.Add(Me.txtClientID)
+        Me.gbClientInformation.Controls.Add(Me.lblCodePostal)
+        Me.gbClientInformation.Controls.Add(Me.lblVille)
+        Me.gbClientInformation.Controls.Add(Me.lblAdresse)
+        Me.gbClientInformation.Controls.Add(Me.lblCourriel)
+        Me.gbClientInformation.Controls.Add(Me.lblTelephone)
+        Me.gbClientInformation.Controls.Add(Me.lblNom)
+        Me.gbClientInformation.Controls.Add(Me.lblPrenom)
+        Me.gbClientInformation.Controls.Add(Me.lblClientID)
+        Me.gbClientInformation.Location = New System.Drawing.Point(79, 42)
+        Me.gbClientInformation.Name = "gbClientInformation"
+        Me.gbClientInformation.Size = New System.Drawing.Size(529, 177)
+        Me.gbClientInformation.TabIndex = 0
+        Me.gbClientInformation.TabStop = False
+        Me.gbClientInformation.Text = "Client Information"
         '
         'txtCodePostal
         '
         Me.txtCodePostal.Location = New System.Drawing.Point(371, 134)
         Me.txtCodePostal.Name = "txtCodePostal"
         Me.txtCodePostal.Size = New System.Drawing.Size(134, 23)
-        Me.txtCodePostal.TabIndex = 7
+        Me.txtCodePostal.TabIndex = 6
         '
         'txtVille
         '
         Me.txtVille.Location = New System.Drawing.Point(371, 98)
         Me.txtVille.Name = "txtVille"
         Me.txtVille.Size = New System.Drawing.Size(134, 23)
-        Me.txtVille.TabIndex = 6
+        Me.txtVille.TabIndex = 5
         '
         'txtAdresse
         '
         Me.txtAdresse.Location = New System.Drawing.Point(371, 62)
         Me.txtAdresse.Name = "txtAdresse"
         Me.txtAdresse.Size = New System.Drawing.Size(134, 23)
-        Me.txtAdresse.TabIndex = 5
+        Me.txtAdresse.TabIndex = 4
         '
         'txtTelephone
         '
@@ -112,7 +112,7 @@ Partial Class Form3
         Me.txtTelephone.Name = "txtTelephone"
         Me.txtTelephone.PlaceholderText = "(111) 222-3333"
         Me.txtTelephone.Size = New System.Drawing.Size(134, 23)
-        Me.txtTelephone.TabIndex = 4
+        Me.txtTelephone.TabIndex = 3
         '
         'txtCourriel
         '
@@ -120,21 +120,21 @@ Partial Class Form3
         Me.txtCourriel.Name = "txtCourriel"
         Me.txtCourriel.PlaceholderText = "aaaa@bbbb.com"
         Me.txtCourriel.Size = New System.Drawing.Size(134, 23)
-        Me.txtCourriel.TabIndex = 3
+        Me.txtCourriel.TabIndex = 2
         '
         'txtNom
         '
         Me.txtNom.Location = New System.Drawing.Point(100, 98)
         Me.txtNom.Name = "txtNom"
         Me.txtNom.Size = New System.Drawing.Size(134, 23)
-        Me.txtNom.TabIndex = 2
+        Me.txtNom.TabIndex = 1
         '
         'txtPrenom
         '
         Me.txtPrenom.Location = New System.Drawing.Point(100, 62)
         Me.txtPrenom.Name = "txtPrenom"
         Me.txtPrenom.Size = New System.Drawing.Size(134, 23)
-        Me.txtPrenom.TabIndex = 1
+        Me.txtPrenom.TabIndex = 0
         '
         'txtClientID
         '
@@ -142,7 +142,7 @@ Partial Class Form3
         Me.txtClientID.Name = "txtClientID"
         Me.txtClientID.ReadOnly = True
         Me.txtClientID.Size = New System.Drawing.Size(134, 23)
-        Me.txtClientID.TabIndex = 0
+        Me.txtClientID.TabIndex = 7
         '
         'lblCodePostal
         '
@@ -219,24 +219,24 @@ Partial Class Form3
         'DataGridView1
         '
         Me.DataGridView1.AllowUserToAddRows = False
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.MintCream
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.MintCream
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(79, Byte), Integer))
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(79, Byte), Integer))
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(79, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(79, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.ColumnHeadersHeight = 30
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8})
         Me.DataGridView1.EnableHeadersVisualStyles = False
-        Me.DataGridView1.Location = New System.Drawing.Point(86, 225)
+        Me.DataGridView1.Location = New System.Drawing.Point(79, 236)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 25
-        Me.DataGridView1.Size = New System.Drawing.Size(633, 183)
+        Me.DataGridView1.Size = New System.Drawing.Size(640, 172)
         Me.DataGridView1.TabIndex = 1
         '
         'Column1
@@ -281,55 +281,55 @@ Partial Class Form3
         '
         'btnAjouter
         '
-        Me.btnAjouter.Location = New System.Drawing.Point(626, 42)
+        Me.btnAjouter.Location = New System.Drawing.Point(626, 52)
         Me.btnAjouter.Name = "btnAjouter"
         Me.btnAjouter.Size = New System.Drawing.Size(86, 23)
-        Me.btnAjouter.TabIndex = 0
+        Me.btnAjouter.TabIndex = 2
         Me.btnAjouter.Text = "Ajouter"
         Me.btnAjouter.UseVisualStyleBackColor = True
         '
         'btnModifier
         '
-        Me.btnModifier.Location = New System.Drawing.Point(626, 100)
+        Me.btnModifier.Location = New System.Drawing.Point(626, 110)
         Me.btnModifier.Name = "btnModifier"
         Me.btnModifier.Size = New System.Drawing.Size(86, 23)
-        Me.btnModifier.TabIndex = 2
+        Me.btnModifier.TabIndex = 4
         Me.btnModifier.Text = "Modifier"
         Me.btnModifier.UseVisualStyleBackColor = True
         '
         'btnEffacer
         '
-        Me.btnEffacer.Location = New System.Drawing.Point(626, 129)
+        Me.btnEffacer.Location = New System.Drawing.Point(626, 139)
         Me.btnEffacer.Name = "btnEffacer"
         Me.btnEffacer.Size = New System.Drawing.Size(86, 23)
-        Me.btnEffacer.TabIndex = 3
+        Me.btnEffacer.TabIndex = 5
         Me.btnEffacer.Text = "Effacer"
         Me.btnEffacer.UseVisualStyleBackColor = True
         '
         'btnSauvegarder
         '
-        Me.btnSauvegarder.Location = New System.Drawing.Point(626, 158)
+        Me.btnSauvegarder.Location = New System.Drawing.Point(626, 167)
         Me.btnSauvegarder.Name = "btnSauvegarder"
         Me.btnSauvegarder.Size = New System.Drawing.Size(86, 23)
-        Me.btnSauvegarder.TabIndex = 4
+        Me.btnSauvegarder.TabIndex = 6
         Me.btnSauvegarder.Text = "Sauvegarder"
         Me.btnSauvegarder.UseVisualStyleBackColor = True
         '
         'btnNouveau
         '
-        Me.btnNouveau.Location = New System.Drawing.Point(626, 71)
+        Me.btnNouveau.Location = New System.Drawing.Point(626, 81)
         Me.btnNouveau.Name = "btnNouveau"
         Me.btnNouveau.Size = New System.Drawing.Size(86, 23)
-        Me.btnNouveau.TabIndex = 1
+        Me.btnNouveau.TabIndex = 3
         Me.btnNouveau.Text = "Nouveau"
         Me.btnNouveau.UseVisualStyleBackColor = True
         '
         'btnQuitter
         '
-        Me.btnQuitter.Location = New System.Drawing.Point(626, 187)
+        Me.btnQuitter.Location = New System.Drawing.Point(626, 196)
         Me.btnQuitter.Name = "btnQuitter"
         Me.btnQuitter.Size = New System.Drawing.Size(86, 23)
-        Me.btnQuitter.TabIndex = 5
+        Me.btnQuitter.TabIndex = 7
         Me.btnQuitter.Text = "Quitter"
         Me.btnQuitter.UseVisualStyleBackColor = True
         '
@@ -345,18 +345,18 @@ Partial Class Form3
         Me.Controls.Add(Me.btnModifier)
         Me.Controls.Add(Me.btnAjouter)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.gbClientInformation)
         Me.Name = "Form3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form3"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.gbClientInformation.ResumeLayout(False)
+        Me.gbClientInformation.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents gbClientInformation As GroupBox
     Friend WithEvents txtCodePostal As TextBox
     Friend WithEvents txtVille As TextBox
     Friend WithEvents txtAdresse As TextBox

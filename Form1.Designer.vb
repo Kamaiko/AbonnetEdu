@@ -47,6 +47,10 @@ Partial Class Form1
         Me.ÀProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IndexeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnNouveauContrat = New System.Windows.Forms.Button()
+        Me.btnCreerClient = New System.Windows.Forms.Button()
+        Me.btnNouvelEmploye = New System.Windows.Forms.Button()
+        Me.btnRapportDeTransactions = New System.Windows.Forms.Button()
         Me.FormCreerClient.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -111,7 +115,7 @@ Partial Class Form1
         'CreerClientToolStripMenuItem
         '
         Me.CreerClientToolStripMenuItem.Name = "CreerClientToolStripMenuItem"
-        Me.CreerClientToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CreerClientToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.CreerClientToolStripMenuItem.Text = "Créer Client"
         '
         'FournisseurToolStripMenuItem
@@ -205,19 +209,58 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(129, 180)
+        Me.Label1.Location = New System.Drawing.Point(154, 36)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(543, 90)
+        Me.Label1.Size = New System.Drawing.Size(497, 90)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Bienvenue sur ABONNET" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Veuillez choisir l'onglet approprié dans le haut de la p" &
-    "age"
+        Me.Label1.Text = "Bienvenue sur ABONNET" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Veuillez sélectionner le bouton ou l'onglet approprié" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btnNouveauContrat
+        '
+        Me.btnNouveauContrat.Location = New System.Drawing.Point(177, 233)
+        Me.btnNouveauContrat.Name = "btnNouveauContrat"
+        Me.btnNouveauContrat.Size = New System.Drawing.Size(104, 46)
+        Me.btnNouveauContrat.TabIndex = 4
+        Me.btnNouveauContrat.Text = "Nouveau Contrat"
+        Me.btnNouveauContrat.UseVisualStyleBackColor = True
+        '
+        'btnCreerClient
+        '
+        Me.btnCreerClient.Location = New System.Drawing.Point(287, 233)
+        Me.btnCreerClient.Name = "btnCreerClient"
+        Me.btnCreerClient.Size = New System.Drawing.Size(104, 46)
+        Me.btnCreerClient.TabIndex = 5
+        Me.btnCreerClient.Text = "Créer Client"
+        Me.btnCreerClient.UseVisualStyleBackColor = True
+        '
+        'btnNouvelEmploye
+        '
+        Me.btnNouvelEmploye.Location = New System.Drawing.Point(397, 233)
+        Me.btnNouvelEmploye.Name = "btnNouvelEmploye"
+        Me.btnNouvelEmploye.Size = New System.Drawing.Size(104, 46)
+        Me.btnNouvelEmploye.TabIndex = 6
+        Me.btnNouvelEmploye.Text = "Gestion Employés"
+        Me.btnNouvelEmploye.UseVisualStyleBackColor = True
+        '
+        'btnRapportDeTransactions
+        '
+        Me.btnRapportDeTransactions.Location = New System.Drawing.Point(507, 233)
+        Me.btnRapportDeTransactions.Name = "btnRapportDeTransactions"
+        Me.btnRapportDeTransactions.Size = New System.Drawing.Size(106, 46)
+        Me.btnRapportDeTransactions.TabIndex = 7
+        Me.btnRapportDeTransactions.Text = "Rapport de transactions"
+        Me.btnRapportDeTransactions.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnRapportDeTransactions)
+        Me.Controls.Add(Me.btnNouvelEmploye)
+        Me.Controls.Add(Me.btnCreerClient)
+        Me.Controls.Add(Me.btnNouveauContrat)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.FormCreerClient)
         Me.Name = "Form1"
@@ -261,4 +304,8 @@ Partial Class Form1
     Friend WithEvents ÀProposToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents IndexeToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnNouveauContrat As Button
+    Friend WithEvents btnCreerClient As Button
+    Friend WithEvents btnNouvelEmploye As Button
+    Friend WithEvents btnRapportDeTransactions As Button
 End Class

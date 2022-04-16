@@ -134,7 +134,7 @@ Partial Class Form2
         Me.grpClient.Location = New System.Drawing.Point(63, 37)
         Me.grpClient.Name = "grpClient"
         Me.grpClient.Size = New System.Drawing.Size(288, 125)
-        Me.grpClient.TabIndex = 14
+        Me.grpClient.TabIndex = 0
         Me.grpClient.TabStop = False
         Me.grpClient.Text = "Client"
         '
@@ -143,7 +143,7 @@ Partial Class Form2
         Me.txtNomClient.Location = New System.Drawing.Point(118, 75)
         Me.txtNomClient.Name = "txtNomClient"
         Me.txtNomClient.Size = New System.Drawing.Size(154, 23)
-        Me.txtNomClient.TabIndex = 4
+        Me.txtNomClient.TabIndex = 1
         '
         'txtClientID
         '
@@ -151,7 +151,7 @@ Partial Class Form2
         Me.txtClientID.Name = "txtClientID"
         Me.txtClientID.ReadOnly = True
         Me.txtClientID.Size = New System.Drawing.Size(100, 23)
-        Me.txtClientID.TabIndex = 3
+        Me.txtClientID.TabIndex = 2
         '
         'lblNomClient
         '
@@ -159,7 +159,7 @@ Partial Class Form2
         Me.lblNomClient.Location = New System.Drawing.Point(22, 68)
         Me.lblNomClient.Name = "lblNomClient"
         Me.lblNomClient.Size = New System.Drawing.Size(90, 30)
-        Me.lblNomClient.TabIndex = 2
+        Me.lblNomClient.TabIndex = 1
         Me.lblNomClient.Text = "Nom Client :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(Nom, Prénom)"
         '
         'lblClientID
@@ -189,7 +189,7 @@ Partial Class Form2
         Me.grpContrat.Location = New System.Drawing.Point(63, 168)
         Me.grpContrat.Name = "grpContrat"
         Me.grpContrat.Size = New System.Drawing.Size(288, 208)
-        Me.grpContrat.TabIndex = 13
+        Me.grpContrat.TabIndex = 1
         Me.grpContrat.TabStop = False
         Me.grpContrat.Text = "Contrat"
         '
