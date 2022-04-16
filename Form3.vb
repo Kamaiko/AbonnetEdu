@@ -39,4 +39,12 @@
             MessageBox.Show("Sélectionner une colonne à supprimer avant de cliquer sur Effacer")
         End If
     End Sub
+
+    Private Sub btnModifier_Click(sender As Object, e As EventArgs) Handles btnModifier.Click
+        MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
+    End Sub
+
+    Private Sub btnSauvegarder_Click(sender As Object, e As EventArgs) Handles btnSauvegarder.Click
+        MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
+    End Sub
 End Class

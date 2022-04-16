@@ -1,9 +1,7 @@
 ﻿Public Class Form1
 
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
         Dim FormNouveauContrat As New Form2
@@ -11,15 +9,15 @@
     End Sub
 
     Private Sub ModifierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ModifierToolStripMenuItem.Click
-
+        MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
     End Sub
 
     Private Sub ConsulterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsulterToolStripMenuItem.Click
-
+        MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
     End Sub
 
     Private Sub RésilierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RésilierToolStripMenuItem.Click
-
+        MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
     End Sub
 
     Private Sub QuitterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuitterToolStripMenuItem.Click
@@ -40,7 +38,8 @@
     End Sub
 
     Private Sub TaxesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TaxesToolStripMenuItem.Click
-
+        Dim temps = Date.Now.ToString("yyyy/MM/dd")
+        MessageBox.Show("TPS : 5%" & vbCrLf & "TVQ: 9.975%" & vbCrLf & "Total: 14.975%" & vbCrLf & "Date en vigueur: " & temps, "Projet en développement", MessageBoxButtons.OK)
     End Sub
 
     Private Sub DébitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DébitToolStripMenuItem.Click
