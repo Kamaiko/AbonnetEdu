@@ -322,6 +322,7 @@ Partial Class Form2
         Me.Controls.Add(Me.grpClient)
         Me.Controls.Add(Me.grpContrat)
         Me.Name = "Form2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
         Me.grpClient.ResumeLayout(False)
         Me.grpClient.PerformLayout()

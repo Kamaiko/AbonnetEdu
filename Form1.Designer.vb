@@ -69,36 +69,36 @@ Partial Class Form1
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.NewToolStripMenuItem.Text = "Nouveau"
         '
         'ModifierToolStripMenuItem
         '
         Me.ModifierToolStripMenuItem.Name = "ModifierToolStripMenuItem"
-        Me.ModifierToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ModifierToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.ModifierToolStripMenuItem.Text = "Modifier"
         '
         'ConsulterToolStripMenuItem
         '
         Me.ConsulterToolStripMenuItem.Name = "ConsulterToolStripMenuItem"
-        Me.ConsulterToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ConsulterToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.ConsulterToolStripMenuItem.Text = "Consulter"
         '
         'RésilierToolStripMenuItem
         '
         Me.RésilierToolStripMenuItem.Name = "RésilierToolStripMenuItem"
-        Me.RésilierToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RésilierToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.RésilierToolStripMenuItem.Text = "Résilier"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(122, 6)
         '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
-        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
         'ClientsToolStripMenuItem
@@ -136,24 +136,24 @@ Partial Class Form1
         'DuJourToolStripMenuItem
         '
         Me.DuJourToolStripMenuItem.Name = "DuJourToolStripMenuItem"
-        Me.DuJourToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DuJourToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
         Me.DuJourToolStripMenuItem.Text = "Du jour"
         '
         'AutreToolStripMenuItem
         '
         Me.AutreToolStripMenuItem.Name = "AutreToolStripMenuItem"
-        Me.AutreToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AutreToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
         Me.AutreToolStripMenuItem.Text = "Autre"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(110, 6)
         '
         'TaxesToolStripMenuItem
         '
         Me.TaxesToolStripMenuItem.Name = "TaxesToolStripMenuItem"
-        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
         Me.TaxesToolStripMenuItem.Text = "Taxes"
         '
         'RapportsToolStripMenuItem
@@ -192,13 +192,13 @@ Partial Class Form1
         'ÀProposToolStripMenuItem
         '
         Me.ÀProposToolStripMenuItem.Name = "ÀProposToolStripMenuItem"
-        Me.ÀProposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ÀProposToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.ÀProposToolStripMenuItem.Text = "À propos"
         '
         'IndexeToolStripMenuItem
         '
         Me.IndexeToolStripMenuItem.Name = "IndexeToolStripMenuItem"
-        Me.IndexeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IndexeToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.IndexeToolStripMenuItem.Text = "Indexe"
         '
         'Label1
@@ -221,6 +221,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.FormCreerClient)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.FormCreerClient.ResumeLayout(False)
         Me.FormCreerClient.PerformLayout()

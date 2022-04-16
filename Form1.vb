@@ -27,7 +27,8 @@
     End Sub
 
     Private Sub CreerClientToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CreerClientToolStripMenuItem.Click
-
+        Dim FormCreerClient As New Form3
+        FormCreerClient.Show()
     End Sub
 
     Private Sub DuJourToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DuJourToolStripMenuItem.Click
