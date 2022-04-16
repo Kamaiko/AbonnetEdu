@@ -1,8 +1,9 @@
 ﻿Public Class Form5
     Private Sub btnAjouter_Click(sender As Object, e As EventArgs) Handles btnAjouter.Click
-        DataGridView1.Rows.Add(txtNoEmploye.Text, txtPrenom.Text, txtNom.Text, txtTelephone.Text)
-        If (txtNewPass.Text <> txtConfirmPass) Then
+        If (txtNewPass.Text <> txtConfirmPass.Text) Then
             MessageBox.Show("Veuillez entrer des Mots de Passe identiques", "Attention!", MessageBoxButtons.OK)
+        Else
+            DataGridView1.Rows.Add(txtNoEmploye.Text, txtPrenom.Text, txtNom.Text, txtTelephone.Text)
         End If
     End Sub
 
