@@ -55,7 +55,7 @@ Partial Class Form2
         '
         'btnSauvegarder
         '
-        Me.btnSauvegarder.Location = New System.Drawing.Point(357, 297)
+        Me.btnSauvegarder.Location = New System.Drawing.Point(218, 420)
         Me.btnSauvegarder.Name = "btnSauvegarder"
         Me.btnSauvegarder.Size = New System.Drawing.Size(102, 23)
         Me.btnSauvegarder.TabIndex = 22
@@ -64,7 +64,7 @@ Partial Class Form2
         '
         'btnRenouveler
         '
-        Me.btnRenouveler.Location = New System.Drawing.Point(357, 268)
+        Me.btnRenouveler.Location = New System.Drawing.Point(218, 391)
         Me.btnRenouveler.Name = "btnRenouveler"
         Me.btnRenouveler.Size = New System.Drawing.Size(102, 23)
         Me.btnRenouveler.TabIndex = 21
@@ -73,34 +73,34 @@ Partial Class Form2
         '
         'btnQuitter
         '
-        Me.btnQuitter.Location = New System.Drawing.Point(623, 420)
+        Me.btnQuitter.Location = New System.Drawing.Point(663, 420)
         Me.btnQuitter.Name = "btnQuitter"
-        Me.btnQuitter.Size = New System.Drawing.Size(137, 23)
+        Me.btnQuitter.Size = New System.Drawing.Size(97, 23)
         Me.btnQuitter.TabIndex = 20
         Me.btnQuitter.Text = "Quitter"
         Me.btnQuitter.UseVisualStyleBackColor = True
         '
         'btnTraiterContrat
         '
-        Me.btnTraiterContrat.Location = New System.Drawing.Point(335, 420)
+        Me.btnTraiterContrat.Location = New System.Drawing.Point(458, 420)
         Me.btnTraiterContrat.Name = "btnTraiterContrat"
-        Me.btnTraiterContrat.Size = New System.Drawing.Size(137, 23)
+        Me.btnTraiterContrat.Size = New System.Drawing.Size(97, 23)
         Me.btnTraiterContrat.TabIndex = 19
         Me.btnTraiterContrat.Text = "Traiter Contrat"
         Me.btnTraiterContrat.UseVisualStyleBackColor = True
         '
         'btnEffacer
         '
-        Me.btnEffacer.Location = New System.Drawing.Point(478, 420)
+        Me.btnEffacer.Location = New System.Drawing.Point(561, 420)
         Me.btnEffacer.Name = "btnEffacer"
-        Me.btnEffacer.Size = New System.Drawing.Size(139, 23)
+        Me.btnEffacer.Size = New System.Drawing.Size(97, 23)
         Me.btnEffacer.TabIndex = 18
         Me.btnEffacer.Text = "Tout Effacer"
         Me.btnEffacer.UseVisualStyleBackColor = True
         '
         'btnEquipements
         '
-        Me.btnEquipements.Location = New System.Drawing.Point(357, 110)
+        Me.btnEquipements.Location = New System.Drawing.Point(98, 415)
         Me.btnEquipements.Name = "btnEquipements"
         Me.btnEquipements.Size = New System.Drawing.Size(102, 23)
         Me.btnEquipements.TabIndex = 17
@@ -109,7 +109,7 @@ Partial Class Form2
         '
         'btnOption
         '
-        Me.btnOption.Location = New System.Drawing.Point(357, 139)
+        Me.btnOption.Location = New System.Drawing.Point(98, 391)
         Me.btnOption.Name = "btnOption"
         Me.btnOption.Size = New System.Drawing.Size(102, 23)
         Me.btnOption.TabIndex = 16
@@ -120,9 +120,9 @@ Partial Class Form2
         '
         Me.lstInvoice.FormattingEnabled = True
         Me.lstInvoice.ItemHeight = 15
-        Me.lstInvoice.Location = New System.Drawing.Point(465, 61)
+        Me.lstInvoice.Location = New System.Drawing.Point(458, 61)
         Me.lstInvoice.Name = "lstInvoice"
-        Me.lstInvoice.Size = New System.Drawing.Size(295, 334)
+        Me.lstInvoice.Size = New System.Drawing.Size(302, 334)
         Me.lstInvoice.TabIndex = 15
         '
         'grpClient
@@ -186,7 +186,7 @@ Partial Class Form2
         Me.grpContrat.Controls.Add(Me.lblDateFin)
         Me.grpContrat.Controls.Add(Me.lblDateDebut)
         Me.grpContrat.Controls.Add(Me.lblID)
-        Me.grpContrat.Location = New System.Drawing.Point(63, 187)
+        Me.grpContrat.Location = New System.Drawing.Point(63, 168)
         Me.grpContrat.Name = "grpContrat"
         Me.grpContrat.Size = New System.Drawing.Size(288, 208)
         Me.grpContrat.TabIndex = 13

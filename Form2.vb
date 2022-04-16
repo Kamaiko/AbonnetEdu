@@ -71,10 +71,9 @@
         txtDateDebut.Text = ""
         txtDateFin.Text = ""
         txtMontantDu.Text = ""
-        lblModifieNow.Text = ""
         CbStatut.Text = "Inactif"
         lstInvoice.Items.Clear()
-        lblModifieActuel = "AAAA-MM-JJ"
+        lblModifieActuel.Text = "AAAA-MM-JJ"
     End Sub
 
     Private Sub btnQuitter_Click(sender As Object, e As EventArgs) Handles btnQuitter.Click
