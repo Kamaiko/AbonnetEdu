@@ -33,11 +33,8 @@
             MessageBox.Show("Veuillez entrer indiquer le statut", "Erreur", MessageBoxButtons.OK)
         End If
 
-
         txtContractID.Text = numeroClient + 1
         txtClientID.Text = getClientID() & txtContractID.Text
-
-
         lblModifieActuel.Text = Date.Now.ToString("yyyy/MM/dd")
         lstInvoice.Items.Clear()
         lstInvoice.Items.Add("Client ID: " & txtClientID.Text)
@@ -51,10 +48,6 @@
         lstInvoice.Items.Add("")
         lstInvoice.Items.Add("                            ------------")
         lstInvoice.Items.Add("            Date de Modification:" & " " & lblModifieActuel.Text)
-
-
-
-
     End Sub
     ' Réinitialise les données dans les TextBox et la ListBox
     Private Sub btnEffacer_Click(sender As Object, e As EventArgs) Handles btnEffacer.Click
@@ -85,7 +78,6 @@
     End Function
     ' Retourne 2 lettres du nom du client suivi par le numéro de client
     Private Function getClientID() As String
-
         Dim str As String = txtNomClient.Text.Substring(0, 2).ToUpper & numeroClient
         Return str
     End Function
