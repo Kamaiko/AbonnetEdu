@@ -22,7 +22,7 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblReleve = New System.Windows.Forms.Label()
         Me.btnDebit = New System.Windows.Forms.Button()
         Me.btnCredit = New System.Windows.Forms.Button()
         Me.btnArgent = New System.Windows.Forms.Button()
@@ -32,15 +32,15 @@ Partial Class Form4
         Me.lblRapportTransactions = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Label1
+        'lblReleve
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(202, 133)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(389, 21)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Choisissez le type de revelé de transactions à imprimer"
+        Me.lblReleve.AutoSize = True
+        Me.lblReleve.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblReleve.Location = New System.Drawing.Point(202, 133)
+        Me.lblReleve.Name = "lblReleve"
+        Me.lblReleve.Size = New System.Drawing.Size(389, 21)
+        Me.lblReleve.TabIndex = 0
+        Me.lblReleve.Text = "Choisissez le type de relevé de transactions à imprimer"
         '
         'btnDebit
         '
@@ -118,7 +118,7 @@ Partial Class Form4
         Me.Controls.Add(Me.btnArgent)
         Me.Controls.Add(Me.btnCredit)
         Me.Controls.Add(Me.btnDebit)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblReleve)
         Me.Name = "Form4"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form4"
@@ -127,7 +127,7 @@ Partial Class Form4
 
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblReleve As Label
     Friend WithEvents btnDebit As Button
     Friend WithEvents btnCredit As Button
     Friend WithEvents btnArgent As Button

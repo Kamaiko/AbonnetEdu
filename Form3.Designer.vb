@@ -79,9 +79,9 @@ Partial Class Form3
         Me.gbClientInformation.Controls.Add(Me.lblNom)
         Me.gbClientInformation.Controls.Add(Me.lblPrenom)
         Me.gbClientInformation.Controls.Add(Me.lblClientID)
-        Me.gbClientInformation.Location = New System.Drawing.Point(86, 84)
+        Me.gbClientInformation.Location = New System.Drawing.Point(79, 71)
         Me.gbClientInformation.Name = "gbClientInformation"
-        Me.gbClientInformation.Size = New System.Drawing.Size(529, 177)
+        Me.gbClientInformation.Size = New System.Drawing.Size(536, 175)
         Me.gbClientInformation.TabIndex = 0
         Me.gbClientInformation.TabStop = False
         Me.gbClientInformation.Text = "Client Information"
@@ -282,7 +282,7 @@ Partial Class Form3
         '
         'btnAjouter
         '
-        Me.btnAjouter.Location = New System.Drawing.Point(633, 94)
+        Me.btnAjouter.Location = New System.Drawing.Point(633, 79)
         Me.btnAjouter.Name = "btnAjouter"
         Me.btnAjouter.Size = New System.Drawing.Size(86, 23)
         Me.btnAjouter.TabIndex = 2
@@ -291,7 +291,7 @@ Partial Class Form3
         '
         'btnModifier
         '
-        Me.btnModifier.Location = New System.Drawing.Point(633, 152)
+        Me.btnModifier.Location = New System.Drawing.Point(633, 137)
         Me.btnModifier.Name = "btnModifier"
         Me.btnModifier.Size = New System.Drawing.Size(86, 23)
         Me.btnModifier.TabIndex = 4
@@ -300,7 +300,7 @@ Partial Class Form3
         '
         'btnEffacer
         '
-        Me.btnEffacer.Location = New System.Drawing.Point(633, 181)
+        Me.btnEffacer.Location = New System.Drawing.Point(633, 166)
         Me.btnEffacer.Name = "btnEffacer"
         Me.btnEffacer.Size = New System.Drawing.Size(86, 23)
         Me.btnEffacer.TabIndex = 5
@@ -309,7 +309,7 @@ Partial Class Form3
         '
         'btnSauvegarder
         '
-        Me.btnSauvegarder.Location = New System.Drawing.Point(633, 209)
+        Me.btnSauvegarder.Location = New System.Drawing.Point(633, 194)
         Me.btnSauvegarder.Name = "btnSauvegarder"
         Me.btnSauvegarder.Size = New System.Drawing.Size(86, 23)
         Me.btnSauvegarder.TabIndex = 6
@@ -318,7 +318,7 @@ Partial Class Form3
         '
         'btnNouveau
         '
-        Me.btnNouveau.Location = New System.Drawing.Point(633, 123)
+        Me.btnNouveau.Location = New System.Drawing.Point(633, 108)
         Me.btnNouveau.Name = "btnNouveau"
         Me.btnNouveau.Size = New System.Drawing.Size(86, 23)
         Me.btnNouveau.TabIndex = 3
@@ -327,7 +327,7 @@ Partial Class Form3
         '
         'btnQuitter
         '
-        Me.btnQuitter.Location = New System.Drawing.Point(633, 238)
+        Me.btnQuitter.Location = New System.Drawing.Point(633, 223)
         Me.btnQuitter.Name = "btnQuitter"
         Me.btnQuitter.Size = New System.Drawing.Size(86, 23)
         Me.btnQuitter.TabIndex = 7

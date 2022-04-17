@@ -117,7 +117,7 @@ Partial Class Form1
         'CreerClientToolStripMenuItem
         '
         Me.CreerClientToolStripMenuItem.Name = "CreerClientToolStripMenuItem"
-        Me.CreerClientToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
+        Me.CreerClientToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CreerClientToolStripMenuItem.Text = "Créer Client"
         '
         'FournisseurToolStripMenuItem
@@ -142,24 +142,24 @@ Partial Class Form1
         'DuJourToolStripMenuItem
         '
         Me.DuJourToolStripMenuItem.Name = "DuJourToolStripMenuItem"
-        Me.DuJourToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
+        Me.DuJourToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.DuJourToolStripMenuItem.Text = "Du jour"
         '
         'AutreToolStripMenuItem
         '
         Me.AutreToolStripMenuItem.Name = "AutreToolStripMenuItem"
-        Me.AutreToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
+        Me.AutreToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AutreToolStripMenuItem.Text = "Autre"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(110, 6)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 6)
         '
         'TaxesToolStripMenuItem
         '
         Me.TaxesToolStripMenuItem.Name = "TaxesToolStripMenuItem"
-        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
+        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TaxesToolStripMenuItem.Text = "Taxes"
         '
         'RapportsToolStripMenuItem
@@ -172,7 +172,7 @@ Partial Class Form1
         'DébitToolStripMenuItem
         '
         Me.DébitToolStripMenuItem.Name = "DébitToolStripMenuItem"
-        Me.DébitToolStripMenuItem.Size = New System.Drawing.Size(139, 22)
+        Me.DébitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.DébitToolStripMenuItem.Text = "Transactions"
         '
         'AdminToolStripMenuItem
@@ -185,8 +185,8 @@ Partial Class Form1
         'NouvelEmployéToolStripMenuItem
         '
         Me.NouvelEmployéToolStripMenuItem.Name = "NouvelEmployéToolStripMenuItem"
-        Me.NouvelEmployéToolStripMenuItem.Size = New System.Drawing.Size(161, 22)
-        Me.NouvelEmployéToolStripMenuItem.Text = "Nouvel Employé"
+        Me.NouvelEmployéToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NouvelEmployéToolStripMenuItem.Text = "Gestion Employés"
         '
         'AideToolStripMenuItem
         '
@@ -198,13 +198,13 @@ Partial Class Form1
         'ÀProposToolStripMenuItem
         '
         Me.ÀProposToolStripMenuItem.Name = "ÀProposToolStripMenuItem"
-        Me.ÀProposToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.ÀProposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ÀProposToolStripMenuItem.Text = "À propos"
         '
         'IndexeToolStripMenuItem
         '
         Me.IndexeToolStripMenuItem.Name = "IndexeToolStripMenuItem"
-        Me.IndexeToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.IndexeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.IndexeToolStripMenuItem.Text = "Indexe"
         '
         'btnNouveauContrat

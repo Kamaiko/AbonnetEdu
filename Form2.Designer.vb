@@ -197,7 +197,7 @@ Partial Class Form2
         'lblModifieActuel
         '
         Me.lblModifieActuel.AutoSize = True
-        Me.lblModifieActuel.Location = New System.Drawing.Point(178, 146)
+        Me.lblModifieActuel.Location = New System.Drawing.Point(172, 174)
         Me.lblModifieActuel.Name = "lblModifieActuel"
         Me.lblModifieActuel.Size = New System.Drawing.Size(79, 15)
         Me.lblModifieActuel.TabIndex = 13
@@ -216,7 +216,7 @@ Partial Class Form2
         Me.CbStatut.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.CbStatut.FormattingEnabled = True
         Me.CbStatut.Items.AddRange(New Object() {"Inactif", "Actif"})
-        Me.CbStatut.Location = New System.Drawing.Point(172, 171)
+        Me.CbStatut.Location = New System.Drawing.Point(172, 143)
         Me.CbStatut.Name = "CbStatut"
         Me.CbStatut.Size = New System.Drawing.Size(100, 23)
         Me.CbStatut.TabIndex = 11
@@ -224,7 +224,7 @@ Partial Class Form2
         'lblStatut
         '
         Me.lblStatut.AutoSize = True
-        Me.lblStatut.Location = New System.Drawing.Point(22, 174)
+        Me.lblStatut.Location = New System.Drawing.Point(22, 146)
         Me.lblStatut.Name = "lblStatut"
         Me.lblStatut.Size = New System.Drawing.Size(44, 15)
         Me.lblStatut.TabIndex = 10
@@ -265,7 +265,7 @@ Partial Class Form2
         'lblModifie
         '
         Me.lblModifie.AutoSize = True
-        Me.lblModifie.Location = New System.Drawing.Point(22, 146)
+        Me.lblModifie.Location = New System.Drawing.Point(22, 174)
         Me.lblModifie.Name = "lblModifie"
         Me.lblModifie.Size = New System.Drawing.Size(54, 15)
         Me.lblModifie.TabIndex = 4
@@ -303,9 +303,9 @@ Partial Class Form2
         Me.lblID.AutoSize = True
         Me.lblID.Location = New System.Drawing.Point(22, 32)
         Me.lblID.Name = "lblID"
-        Me.lblID.Size = New System.Drawing.Size(24, 15)
+        Me.lblID.Size = New System.Drawing.Size(67, 15)
         Me.lblID.TabIndex = 0
-        Me.lblID.Text = "ID :"
+        Me.lblID.Text = "Contrat ID :"
         '
         'lblNouveauContrat
         '

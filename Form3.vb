@@ -1,4 +1,5 @@
 ﻿Public Class Form3
+    ' Affiche les résultats dans le DataGridView
     Private Sub btnAjouter_Click(sender As Object, e As EventArgs) Handles btnAjouter.Click
         txtClientID.Text = getCLientID()
         DataGridView1.Rows.Add(txtClientID.Text, txtPrenom.Text, txtNom.Text, txtCourriel.Text, txtTelephone.Text, txtAdresse.Text, txtVille.Text, txtCodePostal.Text)
@@ -7,12 +8,12 @@
 
     ' Retourne 2 lettres du nom du client suivi par les 4 derniers caractères du code postal
     Private Function getCLientID() As String
-        Dim endOfZipCode, str As String
-        endOfZipCode = txtCodePostal.Text.Substring(txtVille.Text.Length - 4)
-        str = txtNom.Text.Substring(0, 2).ToUpper & endOfZipCode
+        Dim finZipCode, str As String
+        finZipCode = txtCodePostal.Text.Substring(txtVille.Text.Length - 4)
+        str = txtNom.Text.Substring(0, 2).ToUpper & finZipCode
         Return str
     End Function
-
+    ' Réinitialise les TextBox
     Private Sub btnNouveau_Click(sender As Object, e As EventArgs) Handles btnNouveau.Click
         txtClientID.Text = ""
         txtPrenom.Text = ""
@@ -23,14 +24,12 @@
         txtVille.Text = ""
         txtCodePostal.Text = ""
     End Sub
-
+    ' Fermeture de la page
     Private Sub btnQuitter_Click(sender As Object, e As EventArgs) Handles btnQuitter.Click
         Me.Close()
     End Sub
-
+    ' Suprimme une rangée du DataGridView si une rangée est sélectionnée
     Private Sub btnEffacer_Click(sender As Object, e As EventArgs) Handles btnEffacer.Click
-
-
         If DataGridView1.SelectedRows.Count > 0 Then
             Dim resultat As DialogResult = MessageBox.Show("Voulez-vous vraiment supprimer cette rangée?", "Attention!", MessageBoxButtons.YesNo)
             If resultat = DialogResult.Yes Then

@@ -1,12 +1,5 @@
 ﻿Public Class Form2
     Dim numeroClient As Integer
-
-
-    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-
     Private Sub btnEquipements_Click(sender As Object, e As EventArgs) Handles btnEquipements.Click
         MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
     End Sub
@@ -22,7 +15,7 @@
     Private Sub btnSauvegarder_Click(sender As Object, e As EventArgs) Handles btnSauvegarder.Click
         MessageBox.Show("Désoler. Cette fonctionnalité sera intégrée dans la prochaine version", "Projet en développement", MessageBoxButtons.OK)
     End Sub
-
+    ' Vérifie si des champs sont vides et affiche les données au ListBox
     Private Sub btnTraiterContrat_Click(sender As Object, e As EventArgs) Handles btnTraiterContrat.Click
         If (txtNomClient.Text = "") Then
             MessageBox.Show("Veuillez saisir le nom et le prénom séparé par une virgule", "Erreur", MessageBoxButtons.OK)
@@ -63,7 +56,7 @@
 
 
     End Sub
-
+    ' Réinitialise les données dans les TextBox et la ListBox
     Private Sub btnEffacer_Click(sender As Object, e As EventArgs) Handles btnEffacer.Click
         txtClientID.Text = ""
         txtNomClient.Text = ""
@@ -75,11 +68,10 @@
         lstInvoice.Items.Clear()
         lblModifieActuel.Text = "AAAA-MM-JJ"
     End Sub
-
+    ' Fermeture de la page
     Private Sub btnQuitter_Click(sender As Object, e As EventArgs) Handles btnQuitter.Click
         Me.Close()
     End Sub
-
     ' Sépare le nom et prénom du client à l'aide du séparateur vigule(,) et 
     ' retourne le nom et prénom du client
     Private Function NameInProperOrder() As String
@@ -91,13 +83,10 @@
         firstName = name.Substring(comma + 2)
         Return firstName & " " & lastName
     End Function
-
-    ' Retourne 2 lettres du nom du client suivi par les 4 derniers caractères du code postal
+    ' Retourne 2 lettres du nom du client suivi par le numéro de client
     Private Function getClientID() As String
 
         Dim str As String = txtNomClient.Text.Substring(0, 2).ToUpper & numeroClient
         Return str
     End Function
-
-
 End Class
