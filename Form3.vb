@@ -37,7 +37,7 @@
                 DataGridView1.Rows.Remove(DataGridView1.SelectedRows(0))
             End If
         Else
-            MessageBox.Show("Sélectionner une colonne à supprimer avant de cliquer sur Effacer")
+            MessageBox.Show("Sélectionner une rangée à supprimer avant de cliquer sur Effacer")
         End If
     End Sub
 
