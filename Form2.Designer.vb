@@ -56,7 +56,7 @@ Partial Class Form2
         '
         'btnSauvegarder
         '
-        Me.btnSauvegarder.Location = New System.Drawing.Point(218, 420)
+        Me.btnSauvegarder.Location = New System.Drawing.Point(218, 415)
         Me.btnSauvegarder.Name = "btnSauvegarder"
         Me.btnSauvegarder.Size = New System.Drawing.Size(102, 23)
         Me.btnSauvegarder.TabIndex = 22
