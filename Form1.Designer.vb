@@ -32,8 +32,6 @@ Partial Class Form1
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClientsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreerClientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FournisseurToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FactureToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DuJourToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AutreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -58,7 +56,7 @@ Partial Class Form1
         '
         'FormCreerClient
         '
-        Me.FormCreerClient.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContratToolStripMenuItem, Me.ClientsToolStripMenuItem, Me.FournisseurToolStripMenuItem, Me.ServiceToolStripMenuItem, Me.FactureToolStripMenuItem, Me.RapportsToolStripMenuItem, Me.AdminToolStripMenuItem, Me.AideToolStripMenuItem})
+        Me.FormCreerClient.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContratToolStripMenuItem, Me.ClientsToolStripMenuItem, Me.FactureToolStripMenuItem, Me.RapportsToolStripMenuItem, Me.AdminToolStripMenuItem, Me.AideToolStripMenuItem})
         Me.FormCreerClient.Location = New System.Drawing.Point(0, 0)
         Me.FormCreerClient.Name = "FormCreerClient"
         Me.FormCreerClient.Size = New System.Drawing.Size(800, 24)
@@ -117,20 +115,8 @@ Partial Class Form1
         'CreerClientToolStripMenuItem
         '
         Me.CreerClientToolStripMenuItem.Name = "CreerClientToolStripMenuItem"
-        Me.CreerClientToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CreerClientToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.CreerClientToolStripMenuItem.Text = "Créer Client"
-        '
-        'FournisseurToolStripMenuItem
-        '
-        Me.FournisseurToolStripMenuItem.Name = "FournisseurToolStripMenuItem"
-        Me.FournisseurToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
-        Me.FournisseurToolStripMenuItem.Text = "Fournisseur"
-        '
-        'ServiceToolStripMenuItem
-        '
-        Me.ServiceToolStripMenuItem.Name = "ServiceToolStripMenuItem"
-        Me.ServiceToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
-        Me.ServiceToolStripMenuItem.Text = "Service"
         '
         'FactureToolStripMenuItem
         '
@@ -172,7 +158,7 @@ Partial Class Form1
         'DébitToolStripMenuItem
         '
         Me.DébitToolStripMenuItem.Name = "DébitToolStripMenuItem"
-        Me.DébitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DébitToolStripMenuItem.Size = New System.Drawing.Size(139, 22)
         Me.DébitToolStripMenuItem.Text = "Transactions"
         '
         'AdminToolStripMenuItem
@@ -185,7 +171,7 @@ Partial Class Form1
         'NouvelEmployéToolStripMenuItem
         '
         Me.NouvelEmployéToolStripMenuItem.Name = "NouvelEmployéToolStripMenuItem"
-        Me.NouvelEmployéToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NouvelEmployéToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.NouvelEmployéToolStripMenuItem.Text = "Gestion Employés"
         '
         'AideToolStripMenuItem
@@ -198,13 +184,13 @@ Partial Class Form1
         'ÀProposToolStripMenuItem
         '
         Me.ÀProposToolStripMenuItem.Name = "ÀProposToolStripMenuItem"
-        Me.ÀProposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ÀProposToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.ÀProposToolStripMenuItem.Text = "À propos"
         '
         'IndexeToolStripMenuItem
         '
         Me.IndexeToolStripMenuItem.Name = "IndexeToolStripMenuItem"
-        Me.IndexeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IndexeToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.IndexeToolStripMenuItem.Text = "Indexe"
         '
         'btnNouveauContrat
@@ -296,8 +282,6 @@ Partial Class Form1
     Friend WithEvents QuitterToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ClientsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CreerClientToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents FournisseurToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ServiceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FactureToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DuJourToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AutreToolStripMenuItem As ToolStripMenuItem

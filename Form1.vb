@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+
     ' Ouverture de la page Nouveau Contrat
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
         Dim FormNouveauContrat As New Form2

@@ -39,6 +39,10 @@ Partial Class Form5
         Me.txtAdresse = New System.Windows.Forms.TextBox()
         Me.txtNom = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.btnQuitter = New System.Windows.Forms.Button()
         Me.btnNouveau = New System.Windows.Forms.Button()
         Me.btnSauvegarder = New System.Windows.Forms.Button()
@@ -48,17 +52,13 @@ Partial Class Form5
         Me.lblGestionEmployer = New System.Windows.Forms.Label()
         Me.lblTelephone = New System.Windows.Forms.Label()
         Me.txtTelephone = New System.Windows.Forms.TextBox()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblPrenom
         '
         Me.lblPrenom.AutoSize = True
-        Me.lblPrenom.Location = New System.Drawing.Point(54, 101)
+        Me.lblPrenom.Location = New System.Drawing.Point(29, 95)
         Me.lblPrenom.Name = "lblPrenom"
         Me.lblPrenom.Size = New System.Drawing.Size(52, 15)
         Me.lblPrenom.TabIndex = 0
@@ -67,7 +67,7 @@ Partial Class Form5
         'lblNom
         '
         Me.lblNom.AutoSize = True
-        Me.lblNom.Location = New System.Drawing.Point(54, 136)
+        Me.lblNom.Location = New System.Drawing.Point(29, 130)
         Me.lblNom.Name = "lblNom"
         Me.lblNom.Size = New System.Drawing.Size(37, 15)
         Me.lblNom.TabIndex = 1
@@ -76,7 +76,7 @@ Partial Class Form5
         'lblNumeroEmploye
         '
         Me.lblNumeroEmploye.AutoSize = True
-        Me.lblNumeroEmploye.Location = New System.Drawing.Point(54, 297)
+        Me.lblNumeroEmploye.Location = New System.Drawing.Point(29, 291)
         Me.lblNumeroEmploye.Name = "lblNumeroEmploye"
         Me.lblNumeroEmploye.Size = New System.Drawing.Size(78, 15)
         Me.lblNumeroEmploye.TabIndex = 2
@@ -85,7 +85,7 @@ Partial Class Form5
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(54, 332)
+        Me.Label4.Location = New System.Drawing.Point(29, 326)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(131, 15)
         Me.Label4.TabIndex = 3
@@ -94,7 +94,7 @@ Partial Class Form5
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(54, 371)
+        Me.Label5.Location = New System.Drawing.Point(29, 365)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(137, 15)
         Me.Label5.TabIndex = 4
@@ -103,7 +103,7 @@ Partial Class Form5
         'lblAdresse
         '
         Me.lblAdresse.AutoSize = True
-        Me.lblAdresse.Location = New System.Drawing.Point(54, 168)
+        Me.lblAdresse.Location = New System.Drawing.Point(29, 162)
         Me.lblAdresse.Name = "lblAdresse"
         Me.lblAdresse.Size = New System.Drawing.Size(51, 15)
         Me.lblAdresse.TabIndex = 5
@@ -112,7 +112,7 @@ Partial Class Form5
         'lblNas
         '
         Me.lblNas.AutoSize = True
-        Me.lblNas.Location = New System.Drawing.Point(54, 266)
+        Me.lblNas.Location = New System.Drawing.Point(29, 260)
         Me.lblNas.Name = "lblNas"
         Me.lblNas.Size = New System.Drawing.Size(33, 15)
         Me.lblNas.TabIndex = 6
@@ -120,14 +120,14 @@ Partial Class Form5
         '
         'txtPrenom
         '
-        Me.txtPrenom.Location = New System.Drawing.Point(210, 98)
+        Me.txtPrenom.Location = New System.Drawing.Point(185, 92)
         Me.txtPrenom.Name = "txtPrenom"
         Me.txtPrenom.Size = New System.Drawing.Size(121, 23)
         Me.txtPrenom.TabIndex = 0
         '
         'txtConfirmPass
         '
-        Me.txtConfirmPass.Location = New System.Drawing.Point(210, 368)
+        Me.txtConfirmPass.Location = New System.Drawing.Point(185, 362)
         Me.txtConfirmPass.Name = "txtConfirmPass"
         Me.txtConfirmPass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtConfirmPass.Size = New System.Drawing.Size(122, 23)
@@ -135,7 +135,7 @@ Partial Class Form5
         '
         'txtNewPass
         '
-        Me.txtNewPass.Location = New System.Drawing.Point(210, 329)
+        Me.txtNewPass.Location = New System.Drawing.Point(185, 323)
         Me.txtNewPass.Name = "txtNewPass"
         Me.txtNewPass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtNewPass.Size = New System.Drawing.Size(122, 23)
@@ -143,21 +143,21 @@ Partial Class Form5
         '
         'txtNoEmploye
         '
-        Me.txtNoEmploye.Location = New System.Drawing.Point(210, 294)
+        Me.txtNoEmploye.Location = New System.Drawing.Point(185, 288)
         Me.txtNoEmploye.Name = "txtNoEmploye"
         Me.txtNoEmploye.Size = New System.Drawing.Size(122, 23)
         Me.txtNoEmploye.TabIndex = 5
         '
         'txtNAS
         '
-        Me.txtNAS.Location = New System.Drawing.Point(210, 258)
+        Me.txtNAS.Location = New System.Drawing.Point(185, 252)
         Me.txtNAS.Name = "txtNAS"
         Me.txtNAS.Size = New System.Drawing.Size(121, 23)
         Me.txtNAS.TabIndex = 4
         '
         'txtAdresse
         '
-        Me.txtAdresse.Location = New System.Drawing.Point(210, 165)
+        Me.txtAdresse.Location = New System.Drawing.Point(185, 159)
         Me.txtAdresse.Multiline = True
         Me.txtAdresse.Name = "txtAdresse"
         Me.txtAdresse.Size = New System.Drawing.Size(121, 50)
@@ -165,7 +165,7 @@ Partial Class Form5
         '
         'txtNom
         '
-        Me.txtNom.Location = New System.Drawing.Point(211, 133)
+        Me.txtNom.Location = New System.Drawing.Point(186, 127)
         Me.txtNom.Name = "txtNom"
         Me.txtNom.Size = New System.Drawing.Size(121, 23)
         Me.txtNom.TabIndex = 1
@@ -187,92 +187,11 @@ Partial Class Form5
         Me.DataGridView1.ColumnHeadersHeight = 30
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column4, Me.Column1, Me.Column2, Me.Column3})
         Me.DataGridView1.EnableHeadersVisualStyles = False
-        Me.DataGridView1.Location = New System.Drawing.Point(356, 40)
+        Me.DataGridView1.Location = New System.Drawing.Point(329, 52)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 25
-        Me.DataGridView1.Size = New System.Drawing.Size(429, 322)
+        Me.DataGridView1.Size = New System.Drawing.Size(446, 328)
         Me.DataGridView1.TabIndex = 14
-        '
-        'btnQuitter
-        '
-        Me.btnQuitter.Location = New System.Drawing.Point(704, 415)
-        Me.btnQuitter.Name = "btnQuitter"
-        Me.btnQuitter.Size = New System.Drawing.Size(81, 23)
-        Me.btnQuitter.TabIndex = 13
-        Me.btnQuitter.Text = "Quitter"
-        Me.btnQuitter.UseVisualStyleBackColor = True
-        '
-        'btnNouveau
-        '
-        Me.btnNouveau.Location = New System.Drawing.Point(443, 368)
-        Me.btnNouveau.Name = "btnNouveau"
-        Me.btnNouveau.Size = New System.Drawing.Size(81, 23)
-        Me.btnNouveau.TabIndex = 9
-        Me.btnNouveau.Text = "Nouveau"
-        Me.btnNouveau.UseVisualStyleBackColor = True
-        '
-        'btnSauvegarder
-        '
-        Me.btnSauvegarder.Location = New System.Drawing.Point(704, 368)
-        Me.btnSauvegarder.Name = "btnSauvegarder"
-        Me.btnSauvegarder.Size = New System.Drawing.Size(81, 23)
-        Me.btnSauvegarder.TabIndex = 12
-        Me.btnSauvegarder.Text = "Sauvegarder"
-        Me.btnSauvegarder.UseVisualStyleBackColor = True
-        '
-        'btnEffacer
-        '
-        Me.btnEffacer.Location = New System.Drawing.Point(617, 368)
-        Me.btnEffacer.Name = "btnEffacer"
-        Me.btnEffacer.Size = New System.Drawing.Size(81, 23)
-        Me.btnEffacer.TabIndex = 11
-        Me.btnEffacer.Text = "Effacer"
-        Me.btnEffacer.UseVisualStyleBackColor = True
-        '
-        'btnModifier
-        '
-        Me.btnModifier.Location = New System.Drawing.Point(530, 368)
-        Me.btnModifier.Name = "btnModifier"
-        Me.btnModifier.Size = New System.Drawing.Size(81, 23)
-        Me.btnModifier.TabIndex = 10
-        Me.btnModifier.Text = "Modifier"
-        Me.btnModifier.UseVisualStyleBackColor = True
-        '
-        'btnAjouter
-        '
-        Me.btnAjouter.Location = New System.Drawing.Point(356, 368)
-        Me.btnAjouter.Name = "btnAjouter"
-        Me.btnAjouter.Size = New System.Drawing.Size(81, 23)
-        Me.btnAjouter.TabIndex = 8
-        Me.btnAjouter.Text = "Ajouter"
-        Me.btnAjouter.UseVisualStyleBackColor = True
-        '
-        'lblGestionEmployer
-        '
-        Me.lblGestionEmployer.AutoSize = True
-        Me.lblGestionEmployer.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblGestionEmployer.Location = New System.Drawing.Point(54, 40)
-        Me.lblGestionEmployer.Name = "lblGestionEmployer"
-        Me.lblGestionEmployer.Size = New System.Drawing.Size(263, 32)
-        Me.lblGestionEmployer.TabIndex = 21
-        Me.lblGestionEmployer.Text = "Gestion des Employés"
-        '
-        'lblTelephone
-        '
-        Me.lblTelephone.AutoSize = True
-        Me.lblTelephone.Location = New System.Drawing.Point(53, 231)
-        Me.lblTelephone.Name = "lblTelephone"
-        Me.lblTelephone.Size = New System.Drawing.Size(61, 15)
-        Me.lblTelephone.TabIndex = 22
-        Me.lblTelephone.Text = "Téléphone"
-        '
-        'txtTelephone
-        '
-        Me.txtTelephone.Location = New System.Drawing.Point(210, 231)
-        Me.txtTelephone.Name = "txtTelephone"
-        Me.txtTelephone.PlaceholderText = "(444) 444-4444"
-        Me.txtTelephone.Size = New System.Drawing.Size(122, 23)
-        Me.txtTelephone.TabIndex = 3
         '
         'Column4
         '
@@ -293,6 +212,87 @@ Partial Class Form5
         '
         Me.Column3.HeaderText = "TÉLÉPHONE"
         Me.Column3.Name = "Column3"
+        '
+        'btnQuitter
+        '
+        Me.btnQuitter.Location = New System.Drawing.Point(685, 415)
+        Me.btnQuitter.Name = "btnQuitter"
+        Me.btnQuitter.Size = New System.Drawing.Size(81, 23)
+        Me.btnQuitter.TabIndex = 13
+        Me.btnQuitter.Text = "Quitter"
+        Me.btnQuitter.UseVisualStyleBackColor = True
+        '
+        'btnNouveau
+        '
+        Me.btnNouveau.Location = New System.Drawing.Point(424, 383)
+        Me.btnNouveau.Name = "btnNouveau"
+        Me.btnNouveau.Size = New System.Drawing.Size(81, 23)
+        Me.btnNouveau.TabIndex = 9
+        Me.btnNouveau.Text = "Nouveau"
+        Me.btnNouveau.UseVisualStyleBackColor = True
+        '
+        'btnSauvegarder
+        '
+        Me.btnSauvegarder.Location = New System.Drawing.Point(685, 383)
+        Me.btnSauvegarder.Name = "btnSauvegarder"
+        Me.btnSauvegarder.Size = New System.Drawing.Size(81, 23)
+        Me.btnSauvegarder.TabIndex = 12
+        Me.btnSauvegarder.Text = "Sauvegarder"
+        Me.btnSauvegarder.UseVisualStyleBackColor = True
+        '
+        'btnEffacer
+        '
+        Me.btnEffacer.Location = New System.Drawing.Point(598, 383)
+        Me.btnEffacer.Name = "btnEffacer"
+        Me.btnEffacer.Size = New System.Drawing.Size(81, 23)
+        Me.btnEffacer.TabIndex = 11
+        Me.btnEffacer.Text = "Effacer"
+        Me.btnEffacer.UseVisualStyleBackColor = True
+        '
+        'btnModifier
+        '
+        Me.btnModifier.Location = New System.Drawing.Point(511, 383)
+        Me.btnModifier.Name = "btnModifier"
+        Me.btnModifier.Size = New System.Drawing.Size(81, 23)
+        Me.btnModifier.TabIndex = 10
+        Me.btnModifier.Text = "Modifier"
+        Me.btnModifier.UseVisualStyleBackColor = True
+        '
+        'btnAjouter
+        '
+        Me.btnAjouter.Location = New System.Drawing.Point(337, 383)
+        Me.btnAjouter.Name = "btnAjouter"
+        Me.btnAjouter.Size = New System.Drawing.Size(81, 23)
+        Me.btnAjouter.TabIndex = 8
+        Me.btnAjouter.Text = "Ajouter"
+        Me.btnAjouter.UseVisualStyleBackColor = True
+        '
+        'lblGestionEmployer
+        '
+        Me.lblGestionEmployer.AutoSize = True
+        Me.lblGestionEmployer.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblGestionEmployer.Location = New System.Drawing.Point(29, 34)
+        Me.lblGestionEmployer.Name = "lblGestionEmployer"
+        Me.lblGestionEmployer.Size = New System.Drawing.Size(263, 32)
+        Me.lblGestionEmployer.TabIndex = 21
+        Me.lblGestionEmployer.Text = "Gestion des Employés"
+        '
+        'lblTelephone
+        '
+        Me.lblTelephone.AutoSize = True
+        Me.lblTelephone.Location = New System.Drawing.Point(28, 225)
+        Me.lblTelephone.Name = "lblTelephone"
+        Me.lblTelephone.Size = New System.Drawing.Size(61, 15)
+        Me.lblTelephone.TabIndex = 22
+        Me.lblTelephone.Text = "Téléphone"
+        '
+        'txtTelephone
+        '
+        Me.txtTelephone.Location = New System.Drawing.Point(185, 225)
+        Me.txtTelephone.Name = "txtTelephone"
+        Me.txtTelephone.PlaceholderText = "(444) 444-4444"
+        Me.txtTelephone.Size = New System.Drawing.Size(122, 23)
+        Me.txtTelephone.TabIndex = 3
         '
         'Form5
         '
