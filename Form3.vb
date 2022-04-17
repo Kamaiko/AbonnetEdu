@@ -5,7 +5,6 @@
         DataGridView1.Rows.Add(txtClientID.Text, txtPrenom.Text, txtNom.Text, txtCourriel.Text, txtTelephone.Text, txtAdresse.Text, txtVille.Text, txtCodePostal.Text)
 
     End Sub
-
     ' Retourne 2 lettres du nom du client suivi par les 4 derniers caractères du code postal
     Private Function getCLientID() As String
         Dim finZipCode, str As String

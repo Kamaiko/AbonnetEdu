@@ -49,7 +49,7 @@ Partial Class Form1
         Me.btnNouvelEmploye = New System.Windows.Forms.Button()
         Me.btnRapportDeTransactions = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblVersion = New System.Windows.Forms.Label()
         Me.FormCreerClient.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -128,24 +128,24 @@ Partial Class Form1
         'DuJourToolStripMenuItem
         '
         Me.DuJourToolStripMenuItem.Name = "DuJourToolStripMenuItem"
-        Me.DuJourToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DuJourToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
         Me.DuJourToolStripMenuItem.Text = "Du jour"
         '
         'AutreToolStripMenuItem
         '
         Me.AutreToolStripMenuItem.Name = "AutreToolStripMenuItem"
-        Me.AutreToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AutreToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
         Me.AutreToolStripMenuItem.Text = "Autre"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(110, 6)
         '
         'TaxesToolStripMenuItem
         '
         Me.TaxesToolStripMenuItem.Name = "TaxesToolStripMenuItem"
-        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(113, 22)
         Me.TaxesToolStripMenuItem.Text = "Taxes"
         '
         'RapportsToolStripMenuItem
@@ -239,22 +239,22 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 9
         Me.PictureBox1.TabStop = False
         '
-        'Label1
+        'lblVersion
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(324, 428)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(165, 13)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "Version 1.0 en développement."
+        Me.lblVersion.AutoSize = True
+        Me.lblVersion.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblVersion.Location = New System.Drawing.Point(324, 428)
+        Me.lblVersion.Name = "lblVersion"
+        Me.lblVersion.Size = New System.Drawing.Size(165, 13)
+        Me.lblVersion.TabIndex = 10
+        Me.lblVersion.Text = "Version 1.0 en développement."
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblVersion)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnRapportDeTransactions)
         Me.Controls.Add(Me.btnNouvelEmploye)
@@ -305,5 +305,5 @@ Partial Class Form1
     Friend WithEvents btnNouvelEmploye As Button
     Friend WithEvents btnRapportDeTransactions As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblVersion As Label
 End Class
