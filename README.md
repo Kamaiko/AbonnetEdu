@@ -1,1 +1,1 @@
-# Projet de Session (Gestion de client/contrat/employés)
+# Projet de Session (Abonnet: Équipement Informatique)
