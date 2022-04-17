@@ -49,6 +49,7 @@ Partial Class Form2
         Me.lblDateFin = New System.Windows.Forms.Label()
         Me.lblDateDebut = New System.Windows.Forms.Label()
         Me.lblID = New System.Windows.Forms.Label()
+        Me.lblNouveauContrat = New System.Windows.Forms.Label()
         Me.grpClient.SuspendLayout()
         Me.grpContrat.SuspendLayout()
         Me.SuspendLayout()
@@ -120,9 +121,9 @@ Partial Class Form2
         '
         Me.lstInvoice.FormattingEnabled = True
         Me.lstInvoice.ItemHeight = 15
-        Me.lstInvoice.Location = New System.Drawing.Point(458, 61)
+        Me.lstInvoice.Location = New System.Drawing.Point(458, 79)
         Me.lstInvoice.Name = "lstInvoice"
-        Me.lstInvoice.Size = New System.Drawing.Size(302, 334)
+        Me.lstInvoice.Size = New System.Drawing.Size(302, 304)
         Me.lstInvoice.TabIndex = 15
         '
         'grpClient
@@ -306,11 +307,22 @@ Partial Class Form2
         Me.lblID.TabIndex = 0
         Me.lblID.Text = "ID :"
         '
+        'lblNouveauContrat
+        '
+        Me.lblNouveauContrat.AutoSize = True
+        Me.lblNouveauContrat.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblNouveauContrat.Location = New System.Drawing.Point(503, 37)
+        Me.lblNouveauContrat.Name = "lblNouveauContrat"
+        Me.lblNouveauContrat.Size = New System.Drawing.Size(210, 32)
+        Me.lblNouveauContrat.TabIndex = 23
+        Me.lblNouveauContrat.Text = "Nouveau Contrat"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblNouveauContrat)
         Me.Controls.Add(Me.btnSauvegarder)
         Me.Controls.Add(Me.btnRenouveler)
         Me.Controls.Add(Me.btnQuitter)
@@ -329,6 +341,7 @@ Partial Class Form2
         Me.grpContrat.ResumeLayout(False)
         Me.grpContrat.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -359,4 +372,5 @@ Partial Class Form2
     Friend WithEvents lblID As Label
     Friend WithEvents lblModifieNow As Label
     Friend WithEvents lblModifieActuel As Label
+    Friend WithEvents lblNouveauContrat As Label
 End Class

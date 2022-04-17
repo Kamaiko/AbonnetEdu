@@ -46,12 +46,14 @@ Partial Class Form1
         Me.AideToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ÀProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IndexeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.btnNouveauContrat = New System.Windows.Forms.Button()
         Me.btnCreerClient = New System.Windows.Forms.Button()
         Me.btnNouvelEmploye = New System.Windows.Forms.Button()
         Me.btnRapportDeTransactions = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.FormCreerClient.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'FormCreerClient
@@ -205,20 +207,9 @@ Partial Class Form1
         Me.IndexeToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.IndexeToolStripMenuItem.Text = "Indexe"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(154, 36)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(497, 90)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Bienvenue sur ABONNET" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Veuillez sélectionner le bouton ou l'onglet approprié" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'btnNouveauContrat
         '
-        Me.btnNouveauContrat.Location = New System.Drawing.Point(177, 233)
+        Me.btnNouveauContrat.Location = New System.Drawing.Point(188, 269)
         Me.btnNouveauContrat.Name = "btnNouveauContrat"
         Me.btnNouveauContrat.Size = New System.Drawing.Size(104, 46)
         Me.btnNouveauContrat.TabIndex = 4
@@ -227,7 +218,7 @@ Partial Class Form1
         '
         'btnCreerClient
         '
-        Me.btnCreerClient.Location = New System.Drawing.Point(287, 233)
+        Me.btnCreerClient.Location = New System.Drawing.Point(298, 269)
         Me.btnCreerClient.Name = "btnCreerClient"
         Me.btnCreerClient.Size = New System.Drawing.Size(104, 46)
         Me.btnCreerClient.TabIndex = 5
@@ -236,7 +227,7 @@ Partial Class Form1
         '
         'btnNouvelEmploye
         '
-        Me.btnNouvelEmploye.Location = New System.Drawing.Point(397, 233)
+        Me.btnNouvelEmploye.Location = New System.Drawing.Point(408, 269)
         Me.btnNouvelEmploye.Name = "btnNouvelEmploye"
         Me.btnNouvelEmploye.Size = New System.Drawing.Size(104, 46)
         Me.btnNouvelEmploye.TabIndex = 6
@@ -245,29 +236,51 @@ Partial Class Form1
         '
         'btnRapportDeTransactions
         '
-        Me.btnRapportDeTransactions.Location = New System.Drawing.Point(507, 233)
+        Me.btnRapportDeTransactions.Location = New System.Drawing.Point(518, 269)
         Me.btnRapportDeTransactions.Name = "btnRapportDeTransactions"
         Me.btnRapportDeTransactions.Size = New System.Drawing.Size(106, 46)
         Me.btnRapportDeTransactions.TabIndex = 7
         Me.btnRapportDeTransactions.Text = "Rapport de transactions"
         Me.btnRapportDeTransactions.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Abonnet.My.Resources.Resources.Abonnet
+        Me.PictureBox1.Location = New System.Drawing.Point(155, 63)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(497, 200)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Location = New System.Drawing.Point(347, 428)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(165, 13)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "Version 1.0 en développement."
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnRapportDeTransactions)
         Me.Controls.Add(Me.btnNouvelEmploye)
         Me.Controls.Add(Me.btnCreerClient)
         Me.Controls.Add(Me.btnNouveauContrat)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.FormCreerClient)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.FormCreerClient.ResumeLayout(False)
         Me.FormCreerClient.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -303,9 +316,10 @@ Partial Class Form1
     Friend WithEvents AideToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ÀProposToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents IndexeToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Label1 As Label
     Friend WithEvents btnNouveauContrat As Button
     Friend WithEvents btnCreerClient As Button
     Friend WithEvents btnNouvelEmploye As Button
     Friend WithEvents btnRapportDeTransactions As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
 End Class

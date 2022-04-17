@@ -56,6 +56,7 @@ Partial Class Form3
         Me.btnSauvegarder = New System.Windows.Forms.Button()
         Me.btnNouveau = New System.Windows.Forms.Button()
         Me.btnQuitter = New System.Windows.Forms.Button()
+        Me.lblCreerClient = New System.Windows.Forms.Label()
         Me.gbClientInformation.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -78,7 +79,7 @@ Partial Class Form3
         Me.gbClientInformation.Controls.Add(Me.lblNom)
         Me.gbClientInformation.Controls.Add(Me.lblPrenom)
         Me.gbClientInformation.Controls.Add(Me.lblClientID)
-        Me.gbClientInformation.Location = New System.Drawing.Point(79, 42)
+        Me.gbClientInformation.Location = New System.Drawing.Point(86, 84)
         Me.gbClientInformation.Name = "gbClientInformation"
         Me.gbClientInformation.Size = New System.Drawing.Size(529, 177)
         Me.gbClientInformation.TabIndex = 0
@@ -233,7 +234,7 @@ Partial Class Form3
         Me.DataGridView1.ColumnHeadersHeight = 30
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8})
         Me.DataGridView1.EnableHeadersVisualStyles = False
-        Me.DataGridView1.Location = New System.Drawing.Point(79, 236)
+        Me.DataGridView1.Location = New System.Drawing.Point(79, 266)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 25
         Me.DataGridView1.Size = New System.Drawing.Size(640, 172)
@@ -281,7 +282,7 @@ Partial Class Form3
         '
         'btnAjouter
         '
-        Me.btnAjouter.Location = New System.Drawing.Point(626, 52)
+        Me.btnAjouter.Location = New System.Drawing.Point(633, 94)
         Me.btnAjouter.Name = "btnAjouter"
         Me.btnAjouter.Size = New System.Drawing.Size(86, 23)
         Me.btnAjouter.TabIndex = 2
@@ -290,7 +291,7 @@ Partial Class Form3
         '
         'btnModifier
         '
-        Me.btnModifier.Location = New System.Drawing.Point(626, 110)
+        Me.btnModifier.Location = New System.Drawing.Point(633, 152)
         Me.btnModifier.Name = "btnModifier"
         Me.btnModifier.Size = New System.Drawing.Size(86, 23)
         Me.btnModifier.TabIndex = 4
@@ -299,7 +300,7 @@ Partial Class Form3
         '
         'btnEffacer
         '
-        Me.btnEffacer.Location = New System.Drawing.Point(626, 139)
+        Me.btnEffacer.Location = New System.Drawing.Point(633, 181)
         Me.btnEffacer.Name = "btnEffacer"
         Me.btnEffacer.Size = New System.Drawing.Size(86, 23)
         Me.btnEffacer.TabIndex = 5
@@ -308,7 +309,7 @@ Partial Class Form3
         '
         'btnSauvegarder
         '
-        Me.btnSauvegarder.Location = New System.Drawing.Point(626, 167)
+        Me.btnSauvegarder.Location = New System.Drawing.Point(633, 209)
         Me.btnSauvegarder.Name = "btnSauvegarder"
         Me.btnSauvegarder.Size = New System.Drawing.Size(86, 23)
         Me.btnSauvegarder.TabIndex = 6
@@ -317,7 +318,7 @@ Partial Class Form3
         '
         'btnNouveau
         '
-        Me.btnNouveau.Location = New System.Drawing.Point(626, 81)
+        Me.btnNouveau.Location = New System.Drawing.Point(633, 123)
         Me.btnNouveau.Name = "btnNouveau"
         Me.btnNouveau.Size = New System.Drawing.Size(86, 23)
         Me.btnNouveau.TabIndex = 3
@@ -326,18 +327,29 @@ Partial Class Form3
         '
         'btnQuitter
         '
-        Me.btnQuitter.Location = New System.Drawing.Point(626, 196)
+        Me.btnQuitter.Location = New System.Drawing.Point(633, 238)
         Me.btnQuitter.Name = "btnQuitter"
         Me.btnQuitter.Size = New System.Drawing.Size(86, 23)
         Me.btnQuitter.TabIndex = 7
         Me.btnQuitter.Text = "Quitter"
         Me.btnQuitter.UseVisualStyleBackColor = True
         '
+        'lblCreerClient
+        '
+        Me.lblCreerClient.AutoSize = True
+        Me.lblCreerClient.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblCreerClient.Location = New System.Drawing.Point(322, 36)
+        Me.lblCreerClient.Name = "lblCreerClient"
+        Me.lblCreerClient.Size = New System.Drawing.Size(148, 32)
+        Me.lblCreerClient.TabIndex = 24
+        Me.lblCreerClient.Text = "Créer Client"
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblCreerClient)
         Me.Controls.Add(Me.btnQuitter)
         Me.Controls.Add(Me.btnNouveau)
         Me.Controls.Add(Me.btnSauvegarder)
@@ -353,6 +365,7 @@ Partial Class Form3
         Me.gbClientInformation.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -388,4 +401,5 @@ Partial Class Form3
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
     Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents lblCreerClient As Label
 End Class

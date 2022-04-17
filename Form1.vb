@@ -77,4 +77,8 @@
         Dim FormTransactions As New Form4
         FormTransactions.Show()
     End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
 End Class
