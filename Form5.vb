@@ -23,15 +23,15 @@
     End Sub
 
     Private Sub btnEffacer_Click(sender As Object, e As EventArgs) Handles btnEffacer.Click
-        Dim resultat As DialogResult = MessageBox.Show("Voulez-vous vraiment supprimer cette rangée?", "Attention!", MessageBoxButtons.YesNo)
-
         If DataGridView1.SelectedRows.Count > 0 Then
+            Dim resultat As DialogResult = MessageBox.Show("Voulez-vous vraiment supprimer cette rangée?", "Attention!", MessageBoxButtons.YesNo)
             If resultat = DialogResult.Yes Then
                 DataGridView1.Rows.Remove(DataGridView1.SelectedRows(0))
             End If
         Else
             MessageBox.Show("Sélectionner une colonne à supprimer avant de cliquer sur Effacer")
         End If
+
     End Sub
 
     Private Sub btnSauvegarder_Click(sender As Object, e As EventArgs) Handles btnSauvegarder.Click

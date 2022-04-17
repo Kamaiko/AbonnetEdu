@@ -209,7 +209,7 @@ Partial Class Form1
         '
         'btnNouveauContrat
         '
-        Me.btnNouveauContrat.Location = New System.Drawing.Point(188, 269)
+        Me.btnNouveauContrat.Location = New System.Drawing.Point(184, 328)
         Me.btnNouveauContrat.Name = "btnNouveauContrat"
         Me.btnNouveauContrat.Size = New System.Drawing.Size(104, 46)
         Me.btnNouveauContrat.TabIndex = 4
@@ -218,7 +218,7 @@ Partial Class Form1
         '
         'btnCreerClient
         '
-        Me.btnCreerClient.Location = New System.Drawing.Point(298, 269)
+        Me.btnCreerClient.Location = New System.Drawing.Point(294, 328)
         Me.btnCreerClient.Name = "btnCreerClient"
         Me.btnCreerClient.Size = New System.Drawing.Size(104, 46)
         Me.btnCreerClient.TabIndex = 5
@@ -227,7 +227,7 @@ Partial Class Form1
         '
         'btnNouvelEmploye
         '
-        Me.btnNouvelEmploye.Location = New System.Drawing.Point(408, 269)
+        Me.btnNouvelEmploye.Location = New System.Drawing.Point(404, 328)
         Me.btnNouvelEmploye.Name = "btnNouvelEmploye"
         Me.btnNouvelEmploye.Size = New System.Drawing.Size(104, 46)
         Me.btnNouvelEmploye.TabIndex = 6
@@ -236,7 +236,7 @@ Partial Class Form1
         '
         'btnRapportDeTransactions
         '
-        Me.btnRapportDeTransactions.Location = New System.Drawing.Point(518, 269)
+        Me.btnRapportDeTransactions.Location = New System.Drawing.Point(514, 328)
         Me.btnRapportDeTransactions.Name = "btnRapportDeTransactions"
         Me.btnRapportDeTransactions.Size = New System.Drawing.Size(106, 46)
         Me.btnRapportDeTransactions.TabIndex = 7
