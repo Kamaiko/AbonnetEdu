@@ -1,4 +1,35 @@
 ﻿Public Class Form1
+    Public Property Form2 As Form2
+        Get
+            Return Nothing
+        End Get
+        Set(value As Form2)
+        End Set
+    End Property
+
+    Public Property Form3 As Form3
+        Get
+            Return Nothing
+        End Get
+        Set(value As Form3)
+        End Set
+    End Property
+
+    Public Property Form4 As Form4
+        Get
+            Return Nothing
+        End Get
+        Set(value As Form4)
+        End Set
+    End Property
+
+    Public Property Form5 As Form5
+        Get
+            Return Nothing
+        End Get
+        Set(value As Form5)
+        End Set
+    End Property
 
     ' Ouverture de la page Nouveau Contrat
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
