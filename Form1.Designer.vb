@@ -231,10 +231,10 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Abonnet.My.Resources.Resources.Abonnet
-        Me.PictureBox1.Location = New System.Drawing.Point(155, 63)
+        Me.PictureBox1.Image = Global.Abonnet.My.Resources.Resources.Abonnet__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(235, 63)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(497, 200)
+        Me.PictureBox1.Size = New System.Drawing.Size(345, 186)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 9
         Me.PictureBox1.TabStop = False
