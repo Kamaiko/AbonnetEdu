@@ -4,7 +4,7 @@
 > 
 <img width="808" height="484" alt="image" src="https://github.com/user-attachments/assets/3922593d-7a55-40d9-86b8-4a717c2a7924" />
 
-<img width="690" height="421" alt="image" src="https://github.com/user-attachments/assets/6f3065d7-e9f1-46af-9b35-c12b9e95a9d0" />
+
 
 
 ## 📝 Description
@@ -71,3 +71,12 @@ Ce projet a été développé dans le cadre d’un cours universitaire pour illu
 
 - Ce projet est un **projet test scolaire** et n’est pas destiné à une utilisation commerciale.  
 - Tous les changements doivent être testés localement avant d’être commités dans le repo.
+
+<img width="1218" height="723" alt="image" src="https://github.com/user-attachments/assets/41b674da-c798-48ef-bb1c-a35ca7852c48" />
+<img width="1218" height="723" alt="image" src="https://github.com/user-attachments/assets/f9e4ddeb-1acc-4d34-aa0b-4825188f0680" />
+<img width="1213" height="728" alt="image" src="https://github.com/user-attachments/assets/8c26d574-9124-4c8a-a597-9178e47387a7" />
+<img width="1153" height="725" alt="image" src="https://github.com/user-attachments/assets/0f74429c-7f68-451c-927b-7d413593df1c" />
+
+
+
+
