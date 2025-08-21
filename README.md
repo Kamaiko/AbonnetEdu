@@ -1,6 +1,8 @@
 # AbonnetTest
 
 > Projet test d'école – Gestion d'équipement informatique, clients, contrats et utilisateurs
+> 
+<img width="1224" height="735" alt="image" src="https://github.com/user-attachments/assets/401fa467-089a-4946-a7af-d7ca91706abd" />
 
 ---
 
